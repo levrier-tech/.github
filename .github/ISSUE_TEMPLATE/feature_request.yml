@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an idea or improvement
+title: "feat: <short description>"
+labels: ["enhancement"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: Target repository
+      placeholder: levrier-tech/brigid
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / motivation
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
